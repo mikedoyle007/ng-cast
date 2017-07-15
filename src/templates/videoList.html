@@ -1,4 +1,4 @@
 <ul class="video-list">
-  <video-list-entry ng-repeat="video in $ctrl.videos"><h5><em>something else</em>{{ video }}</h5></video-list-entry>
+  <video-list-entry ng-click="$ctrl.onClick" ng-repeat="video in $ctrl.videos" onClick="$ctrl.onClick"><h5><em>something else</em>{{ video }}</h5></video-list-entry>
   
 </ul>

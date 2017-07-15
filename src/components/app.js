@@ -3,6 +3,7 @@ angular.module('video-player')
     $scope.$ctrl.videos = exampleVideoData;
     $scope.$ctrl.selectVideo = function() {};
     $scope.$ctrl.searchResults = function() {};
+    $scope.$ctrl.onClick = function() {};
 
     $scope.$ctrl.currentVideo = {};
   })
