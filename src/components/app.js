@@ -6,11 +6,11 @@ angular.module('video-player')
     $scope.$ctrl.selectVideo = function(video) {
       $scope.$ctrl.currentVideo = video;
     };
-    $scope.$ctrl.searchResults = function() {};
     $scope.$ctrl.onClick = function(video) {
       return $scope.$ctrl.selectVideo(video);
     };
     $scope.$ctrl.result = function() {};
+    $scope.$ctrl.searchResults = function() {};
   })
   .component('app', {
     templateUrl: 'src/templates/app.html',
